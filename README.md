@@ -1,14 +1,14 @@
 # FFA-for-Punctuation-Restoration
+Source code for A Context-aware Feature Fusion Framework for Punctuation Restoration. We would appreciate it if you cite our paper as following:
+```
 
-## our model
-+ bart-large
-+ funnel-transformer-xlarge
+```
 
 ## Methods
 + parallel_enc_dec.py
 + modeling_funnel.py(talk_matrix)
 
-## Language Models
+## Pre-trained Language Models
 + facebook/bart-large
 + funnel-transformer/xlarge
 
@@ -252,9 +252,6 @@ Loss:0.9846:   1%|█▊                                                        
 1. 可以在 ./main/src/modes/parallel_enc_dec.py 修改预训练模型
 
 ## Authors
+If you have any question, please email to Kebin.
 * **Kebin Fang** -fkb@zjuici.com
 
-## BibTex
-```
-
-```

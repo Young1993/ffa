@@ -313,11 +313,10 @@ class Restorer(object):
             print(eva_msg)
             # random sample to show
             self.validate()
-            # 每个epoch都看下测试集的效果
             # reference test
-            self.ref_test()
+            # self.ref_test()
             # asr output test
-            self.asr_test()
+            # self.asr_test()
             # early stopping on the basis of validation result
             if self.valid_epoch >= self.config.valid_win_size:
                 # if True:
